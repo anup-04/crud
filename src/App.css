@@ -1,0 +1,116 @@
+.App{
+    text-align: center;
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.heading{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #3498db;
+}
+
+.form-control{
+    display: flex;
+    margin-bottom: 1 rem;
+}
+
+.form-control label{
+    flex: 1;
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+.form-control input{
+    flex: 3;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    background-color: #f7f7f7;
+    border: none;
+    box-shadow: none;
+}
+
+.btn{
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 1rem;
+    transition: background-color 0.3s ease;
+}
+.btn:hover{
+    color: #2980b9;
+}
+
+.students{
+    margin-top: 2rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) ;
+
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+}
+th, td{
+    padding: 0.5rem;
+    text-align: left;
+    border: px solid #ccc;
+}
+
+th{
+    background-color: #3498db;
+    font-weight: bold;
+    color: #fff;
+}
+td{
+    vertical-align: middle;
+}
+td:last-child{
+   text-align: center;
+}
+
+.add-student{
+    text-align: center;
+    margin-top: 2rem;
+
+}
+
+.add-student input[type='submit']{
+    background-color: #3498db;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-student input[type='submit']:hover{
+    background-color: #2980b9;
+}
+
+@media screen and (max-width: 768px){
+    .form-control{
+        flex-direction: column;
+    }
+    .form-control label{
+        margin-bottom: 0.5rem;
+    }
+    .form-control input{
+        margin-bottom: 1rem;
+    }
+}
+
+body{
+    background-color: #f7f7f7;
+}
